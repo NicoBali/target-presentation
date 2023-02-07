@@ -1,0 +1,122 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(248, 248, 248);
+}
+
+.target {
+    width: 370px;
+    height: 460px;
+    background-color:rgb(255, 255, 255);
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 50px auto;
+}
+.main-image {
+    width: 100%;
+    height: 160px;
+}
+.profile-image {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    border: 3px solid white;
+    display: flex;
+    margin: 0 auto;
+    margin-top: -60px;
+    position: relative;
+}
+.text-name {
+    font-size: 18px;
+    font-weight: 600;
+    color: darkgray;
+    text-align: center;
+}
+.text-description p {
+    font-size: 13px;
+    color: darkgray;
+    text-align: center;
+}
+.target-ubication {
+    width: 50px;
+    height: 30px;
+    display: inline;
+    list-style: none;
+    margin-left: 30px;
+    font-size: 12px;
+}
+.target-contact {
+    width: 50px;
+    height: 30px;
+    display: inline;
+    margin-left: 145px;
+    font-size: 12px;
+}
+.target-ubication a {
+    text-decoration: none;
+    color: darkgray;
+}
+.target-contact a {
+    text-decoration: none;
+    color: darkgray;
+}
+
+.target-ubication .img-ubication {
+    width: 16px;
+    height: 16px;
+    top: 4px;
+    position: relative;
+}
+.img-contact {
+    width: 16px;
+    height: 16px;
+    position: relative;
+    top: 3px;
+    right: 2px;
+}
+.main-target {
+    margin-top: 28px;
+}
+
+.column-main {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    line-height: 3px;
+    font-size: 13px;
+    background-color: rgb(241, 241, 241);
+    border: 1px solid rgb(187, 187, 197);
+    width: 368px;
+    height: 50px;
+    margin-top: 20px;
+    color: rgb(133, 130, 130);
+    align-items: center;
+}
+.column-following {
+    height: 100%;
+    margin-right: 80px;
+}
+.column-following .number-two {
+    font-weight: bold;
+}
+.column-followers {
+    margin-left: 80px;
+}
+.column-followers .number {
+    font-weight: bold;
+}
+
+.footer-follow {
+    background-color: rgb(101, 211, 129);
+    height: 60px;
+    position: relative;
+    bottom: 0px;
+    text-align: center;
+}
+.footer-text {
+    padding-top: 5px;
+    color: white;
+    font-weight: bold;
+}
